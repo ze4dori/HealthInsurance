@@ -3,7 +3,7 @@
 ## Ссылка на датасет
 
 Данные взяты с платформы Kaggle:  
-🔗 [US Health Insurance Dataset](https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset)
+[US Health Insurance Dataset](https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset)
 
 ## Постановка задачи
 
@@ -36,7 +36,7 @@
 
 ### 2. Обработка данных
 
-- Числовые признаки масштабированы (`StandardScaler`)
+- Числовые признаки масштабированы (`MinMaxScaler`)
 - Категориальные признаки закодированы (LabelEncoding / OneHotEncoding)
 - Разделение выборки на `train` и `test`
 
